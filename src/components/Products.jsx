@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "../api/axios";
 import { FaStar, FaStarHalf, FaStarHalfAlt } from "react-icons/fa";
-import {} from "react-icons/fa";
 import Modal from "./Modal";
 
 const Products = () => {
