@@ -53,6 +53,7 @@ const Products = () => {
           <FaStarHalfAlt key="half-star" className="text-[gold]" />
         )}
       </p>
+      <button className="text-white py-2 px-4 rounded-lg bg-green-500 hover:opacity-60">Buy Now</button>
     </div>
   ));
 
