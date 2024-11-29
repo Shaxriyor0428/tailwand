@@ -9,7 +9,7 @@ const Modal = ({ imageUrl, setOpen }) => {
   return (
     <div
       onClick={handleClose}
-      className="modal-overlay w-full h-full fixed top-0 left-0 bg-[#00000096] flex items-center justify-center"
+      className="modal-overlay w-full h-full z-30 fixed top-0 left-0 bg-[#00000096] flex items-center justify-center"
     >
       <div
         className="bg-white pt-16 px-8 pb-8 rounded-lg max-w-[500px] relative"

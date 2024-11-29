@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Products />
       <Swipper />
+      <Products />
     </div>
   );
 }
